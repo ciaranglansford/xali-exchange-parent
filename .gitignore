@@ -1,0 +1,12 @@
+# Ignore specific files
+
+
+# Ignore all files in a directory
+xali-exchange-model/target
+xali-exchange-persistence/target
+xali-exchange-service/target
+xali-exchange-war/target
+
+# Ignore all `.log` files
+*.log
+
