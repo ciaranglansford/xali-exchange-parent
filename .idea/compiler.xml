@@ -13,4 +13,13 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="xali-exchange-model" options="-parameters" />
+      <module name="xali-exchange-parent" options="-parameters" />
+      <module name="xali-exchange-persistence" options="-parameters" />
+      <module name="xali-exchange-services" options="-parameters" />
+      <module name="xali-exchange-war" options="-parameters" />
+    </option>
+  </component>
 </project>
